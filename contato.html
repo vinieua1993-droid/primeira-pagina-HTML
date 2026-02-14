@@ -29,17 +29,28 @@
                 <h2>Contato</h2>
 
                 <p>Entre em contato conosco para agendar uma consulta ou esclarecer suas dúvidas. Estamos aqui para ajudar você a cuidar da sua saúde!</p>
-                <p><b>Telefone:</b> (73) 99999-9999</p>
-                <p><b>Email:</b> clinicamedica@gmail.com</p>    
-                <p><b>Endereço:</b> Rua Exemplo, 123 - Porto Seguro, Bahia</p>
-                <p><b>Redes Sociais:</b> 
-                    <a href="https://www.facebook.com/clinicamedica" target="_blank">Facebook</a> | 
-                    <a href="https://www.instagram.com/clinicamedica" target="_blank">Instagram</a> | 
-                    <a href="https://www.twitter.com/clinicamedica" target="_blank">Twitter</a> 
-                </p>
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.1234567890123!2d-39.1234567890123!3d-16.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789012345%3A0x123456789012345!2sCl%C3%ADnica%20M%C3%A9dica%20Exemplo!5e0!3m2!1spt-BR!2sbr!4v1234567890123" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <form action="enviar_contato.php" method="post">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
 
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="telefone">Assunto:</label><br>
+                    <input type="text" id="assunto" name="assunto" required><br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+
+                
+                </form>
+
+                
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61230.80764502697!2d-39.157007641378826!3d-16.428610762155376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x73696a94abc86ff%3A0x677df9529c95e80f!2sPorto%20Seguro%2C%20BA%2C%2045810-000%2C%20Brasil!5e0!3m2!1spt-PT!2spt!4v1771011601682!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
                 
             </div>
